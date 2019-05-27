@@ -1,8 +1,8 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#include core\action.ahk
+#include core\config.ahk
+#include core\keymap.ahk
+#include core\menus.ahk
+#include core\position.ahk
+#include core\selection.ahk
+#include core\window.ahk
 
-#down::
-WinMinimize,A
-return
