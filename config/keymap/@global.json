@@ -1,0 +1,19 @@
+{
+    "window":[
+        "-exe:code.exe",
+        "+all"
+    ],
+    "keymap": [
+        {
+            "key": "#t",
+            "action": {
+                "type": "run",
+                "param": ""
+            }
+        },
+        {
+            "key": "",
+            "action": ""
+        }
+    ]
+}
